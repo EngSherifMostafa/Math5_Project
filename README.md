@@ -12,12 +12,12 @@
 				
 	Poisson  	: Shahd Amgad
 				
-	Uniform	 	: Sherif Mostafa	
+	Uniform	 	: Rana Ehab	
 
 ------------------------------------------------------------------------------------
 ### 2- Continuous:
 	
-	Uniform    	: Rana Ehab
+	Uniform    	: Omar Shaheen
 	
 	Exponential	: Shahd Amgad
 	
