@@ -25,10 +25,10 @@
 
  ------------------------------------------------------------------------------------
 ### Supporting by (2-4) real life examples that uses some of these random variables.
-
-	Example 1    	: Shahd Amgad ( Predicted_Earthquake_Magnitude_in_Morocco )
 				
-	Example 2    	: Omar Shaheen (  )
+	Example 1    	: Abdelwahab Alaa ( Predicted_Earthquake_Magnitude_in_Morocco )
+ 
+ 	Example 2    	: Shahd Amgad (  )
  
 	Example 3    	: Sherif Mostafa ( Predicted_Player_Rating_in_Chess_Games )
  
