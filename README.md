@@ -24,7 +24,8 @@
 	Gaussian   	: Sherif Mostafa
 
  ------------------------------------------------------------------------------------
-	
+### supporting by (2-4) real life examples that uses some of these random variables.
+
 	Example 1    	: Shahd Amgad
 				
 	Example 2    	: Omar Shaheen
@@ -32,5 +33,3 @@
 	Example 3    	: Sherif Mostafa
  
 ------------------------------------------------------------------------------------
-
-supporting by (2-4) real life examples that uses some of these random variables.
