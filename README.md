@@ -25,11 +25,11 @@
 
  ------------------------------------------------------------------------------------
 	
-	Example 1    : Shahd Amgad
+	Example 1    	: Shahd Amgad
 				
-	Example 2    : Omar Shaheen
+	Example 2    	: Omar Shaheen
  
-	Example 3    : Sherif Mostafa
+	Example 3    	: Sherif Mostafa
  
 ------------------------------------------------------------------------------------
 
