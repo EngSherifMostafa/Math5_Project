@@ -17,7 +17,7 @@
 ------------------------------------------------------------------------------------
 ### 2- Continuous:
 	
-	Uniform    	: Abdelwahab Alaa
+	Uniform    	: Rana Ehab
 	
 	Exponential	: Shahd Amgad
 	
