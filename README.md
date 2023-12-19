@@ -28,8 +28,6 @@
 				
 	Example 1    	: Abdelwahab Alaa ( Predicted_Earthquake_Magnitude_in_Morocco )
  
- 	Example 2    	: Shahd Amgad (  )
- 
-	Example 3    	: Sherif Mostafa ( Predicted_Player_Rating_in_Chess_Games )
+	Example 2    	: Sherif Mostafa ( Predicted_Player_Rating_in_Chess_Games )
  
 ------------------------------------------------------------------------------------
