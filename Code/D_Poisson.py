@@ -22,14 +22,6 @@ plt.show()
 # Generate Random Sample of 1000 observations
 random_sample = rv_poisson.rvs(size=1000)
 
-# Plot Histogram of the Random Sample
-plt.hist(random_sample, bins=np.arange(0, 12) - 0.5, color='skyblue', alpha=0.7, density=True, label='Random Sample')
-plt.title("Histogram of Poisson Random Sample")
-plt.xlabel("Number of Events")
-plt.ylabel("Frequency")
-plt.legend()
-plt.show()
-
 # Plot CDF
 cdf = rv_poisson.cdf(x)
 plt.step(x, cdf, where='post', label='CDF')
@@ -45,4 +37,12 @@ print("Variance:", variance)
 
 # Show Plots
 plt.tight_layout()
+plt.show()
+
+# Plot Histogram of the Random Sample
+plt.hist(random_sample, bins=np.arange(0, 12) - 0.5, color='skyblue', alpha=0.7, density=True, label='Random Sample')
+plt.title("Histogram of Poisson Random Sample")
+plt.xlabel("Number of Events")
+plt.ylabel("Frequency")
+plt.legend()
 plt.show()
