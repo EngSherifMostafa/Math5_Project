@@ -4,22 +4,22 @@
 ------------------------------------------------------------------------------------
 ### 1- Discrete: 
 	
-	Bernoulli	: Rana Ehab
+	Bernoulli	: Omar Shaheen
 				
-	Binomial 	: Omar Shaheen
+	Binomial 	: Shahd Amgad
 				
-	Geometric	: Abdelwahab Alaa
+	Geometric	: Rana Ehab
 				
 	Poisson  	: Shahd Amgad
 				
-	Uniform	 	: Rana Ehab	
+	Uniform	 	: Omar Shaheen
 
 ------------------------------------------------------------------------------------
 ### 2- Continuous:
 	
-	Uniform    	: Omar Shaheen
+	Uniform    	: Rana Ehab
 	
-	Exponential	: Shahd Amgad
+	Exponential	: Abdelwahab Alaa
 	
 	Gaussian   	: Abdelwahab Alaa
 
