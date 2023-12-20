@@ -21,13 +21,13 @@
 	
 	Exponential	: Shahd Amgad
 	
-	Gaussian   	: Sherif Mostafa
+	Gaussian   	: Abdelwahab Alaa
 
  ------------------------------------------------------------------------------------
 ### Supporting by (2-4) real life examples that uses some of these random variables.
 				
-	Example 1    	: Abdelwahab Alaa ( Predicted_Earthquake_Magnitude_in_Morocco )
+	Example 1    	: Sherif M.Samy ( Predicted_Earthquake_Magnitude_in_Morocco )
  
-	Example 2    	: Sherif Mostafa ( Predicted_Player_Rating_in_Chess_Games )
+	Example 2    	: Sherif M.Samy ( Predicted_Player_Rating_in_Chess_Games )
  
 ------------------------------------------------------------------------------------

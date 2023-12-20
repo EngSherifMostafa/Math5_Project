@@ -4,33 +4,32 @@ from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 
-# Load your CSV file
+# Reads the dataset from a CSV file into a pandas DataFrame (2D array)
+# dataset include ranks from 27-7-2000 to 27-6-2017
 df = pd.read_csv('chess_games.csv')
 
 # Preprocess the data
 le = LabelEncoder()
+# convert name to numerical values
 df['name'] = le.fit_transform(df['name'])
-df['ranking_date'] = pd.to_datetime(df['ranking_date'], errors='coerce')  # Use 'coerce' to handle invalid dates
+# convert ranking_date to date_time values, use 'coerce' to handle invalid dates
+df['ranking_date'] = pd.to_datetime(df['ranking_date'], errors='coerce')
+# sort ranking_date
 df.sort_values(by='ranking_date', inplace=True)
-
-# Remove rows with missing or invalid dates
+# Remove rows with missing or invalid dates ( NAN, NAT, None )
 df = df.dropna(subset=['ranking_date'])
 
 # Split the data into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(df[['name', 'previous_rating']], df['rating'], test_size=0.2,
                                                     random_state=42)
-
 # Create a linear regression model
 model = LinearRegression()
-
 # Train the model
 model.fit(X_train, y_train)
-
 # Make predictions on the test set
-y_pred = model.predict(X_test)
-
+predictions = model.predict(X_test)
 # Evaluate the model
-mse = mean_squared_error(y_test, y_pred)
+mse = mean_squared_error(y_test, predictions)
 print(f'Mean Squared Error: {mse}')
 
 # Now, let the user input a player name and future date
@@ -51,4 +50,4 @@ recent_rating = df[(df['name'] == user_input_name_encoded) & (df['ranking_date']
 user_input_data = pd.DataFrame([[user_input_name_encoded, recent_rating]], columns=['name', 'previous_rating'])
 predicted_rating = model.predict(user_input_data)[0]
 
-print(f'Predicted rating for {user_input_name} on {user_input_future_date}: {predicted_rating}')
+print(f'Predicted rating for {user_input_name} on {user_input_future_date.date()}: {predicted_rating}')
